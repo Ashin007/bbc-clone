@@ -1,0 +1,395 @@
+<html>
+    <head>
+        <title>Technology-BBC News</title>
+        <style type="text/css">
+            #topbar{
+              // background-color: aqua;
+                width:1000px;
+                height: 40px;
+                margin: 0 auto;
+            }
+            body{
+                margin: 0;
+                padding: 0;
+                font-family:Helvetica,Aerial,sans-serif;
+            }
+            #logo{
+                margin-top: 8px;
+                float:left;
+                margin-right: 8px;
+                
+                
+            }
+            #sign-in-image{
+                position: relative;
+                top: 100px;
+                
+                top: -2px;
+             //   margin
+                float:left;
+                
+                
+            }
+            #top-bar-text{
+                font-weight: bold;
+                font-size:90%;
+                position:relative;
+                top:-15px; 
+                padding: 20px;
+                
+            }
+            .top-bar{
+                float:left;
+                border-left:1px #cccccc solid;
+                height: 100%;
+                
+            }
+            .top-bar-menu{
+                font-weight: bold;
+                font-size: 90%;
+                padding:10px 15px 0 15px;
+                height:27px;
+               
+                
+            }
+            #black{
+                color: black;
+            }
+            #more-arrow{
+                width: 16px;
+            }
+            #serch-box{
+                background-color:#E4E4E4;
+                border: none;
+                font-weight: bold;
+                font-size:14px;
+                padding: 5px;
+                margin: 5px; 
+                position:relative;
+                top:-4px;
+                
+            }
+            #search-icon{
+                height:26px;
+                margin-top:5px;
+                position:relative;
+                left:-5px;
+                top:3.5px;
+                
+                
+            }
+            .clear{
+                clear: both;
+            }
+            .menu-bar-container{
+                background: #BB1919;
+                width:100%;
+                height: 60px;
+                
+            }
+            .menu-bar{
+                width: 1000px;
+                margin: 0 auto;
+                
+            }
+            .h1{
+                padding: 0px;
+                margin: 0px;
+                color: white;
+                font-size: 40px;
+                font-weight: normal;
+                padding-top:8px;
+                
+            }
+            .menu-bar-container2{
+                background-color:#A91717 ;
+                width: 100%;
+                height: 40px;
+            }
+            .menu-bar2{
+                width: 1000px;
+                margin: 0 auto;
+                
+            }
+            .menu-bar2 a{
+                color: white;
+                text-decoration: none;
+                padding: 0px 5px 0px 5px;
+                border-right:2px solid #BB4545;
+                position: relative;
+                top: 10px;
+                font-size: 90%;
+                
+            }
+            .menu-bar2 a:hover{
+                text-decoration: underline;
+            }
+            .no-boder{
+                border: none !important;
+            }
+            #red-more{
+                position:relative;
+                top: 13px;
+            }
+            #page-container{
+                width: 1000px;
+                margin:0 auto;
+                
+            }
+            .h2{
+                margin-top:8px;
+                font-weight: normal;
+                font-size: 20px;
+                border-bottom: 3px solid #A91717;
+                width: 105px;
+            }
+            h3 a{
+                font-size: 30px;
+                color: #5a5a5a;
+                text-decoration: none;
+            }
+            h3 a:hover{
+                color: #1167A8;
+            }
+            .article-summary{
+                color: #5a5a5a;
+                width: 225px;
+                float:left;
+                font-size:90%;
+            }
+            .article-summary img{
+                margin-bottom:-1.5px;
+                
+            }
+            .article-summary a{
+                text-decoration: none;
+                color: #5a5a5a;
+            }
+            .article-summary a:hover{
+                color:  #1167A8;
+            }
+            #tech-a{
+                text-decoration: none;
+                color:#A91717;
+                
+            }
+            #tech-a:hover{
+                color:  #1167A8;
+                
+            }
+            #article-container{
+        
+                width: 640px;
+                border-right: 1px solid #cccccc;
+                height: 700px;
+            
+            }
+            #facebook-image{
+                width:390px;
+                margin-left: 10px;    
+                float:left;
+            }
+            #article-hr{
+                border-top:1px solid #A91717;
+                width: 50px;
+                
+            }
+            .watch-listen{
+                position: relative;
+                bottom: 765px;
+                left:650px;
+            }
+            .near-to-video{
+                float:left;
+            }
+            .p-move{
+                float:left;
+                width: 200px;
+                position:relative;
+                top: -20px;
+                font-style: bold;
+                font-size: 110%;;
+                margin-left: 5px;
+            }
+            .clock-image-move{
+                float:left;
+                position: relative;
+                top:25px;
+                right:200px;
+            }
+            .date{
+                font-style: normal;
+                font-size: 80%;
+                color: #cccccc;
+                position:relative;
+                top:25px;
+            }
+            .tech-border{
+                border-left: 1px solid #BB4545;
+                padding: 2px;
+                font-size: 80%;
+            }
+            a{
+                
+                font-style: bold;
+                font-weight: 100px;
+                font-size: 90%;
+                color:black;
+                text-decoration: none;
+            }
+            a:hover{
+                color: #1167A8;
+            }
+            .down{
+                position:relative;
+                top:50px;
+                left:-310px;
+            }
+            .cornwall{
+                position:relative;
+                top:65px;
+                left:-310px;
+            }
+            h4{
+                font-weight: 100;
+                font-style: normal;
+                font-size: 25px;
+            }
+        </style>
+    </head>
+    <body>
+    
+         <div id="topbar">
+             <img id="logo" src="bbc-logo.png" alt="bbc logo">
+             <div id="sign-in-image" class="top-bar">
+                 <img src="sign-in.png">
+                 <a href=""><span id="top-bar-text">Sign in</span></a>
+                 
+             
+             </div>
+             <a id="black" href=""><div class="top-bar top-bar-menu">News</div></a>
+             <a id="black"href=""><div class="top-bar top-bar-menu">Sport</div></a>
+             <a id="black"href=""><div class="top-bar top-bar-menu">Weather</div></a>
+             <a id="black"href=""><div class="top-bar top-bar-menu">Shop</div></a>
+             <a id="black"href=""><div class="top-bar top-bar-menu">Earth</div></a>
+             <a id="black"href=""><div class="top-bar top-bar-menu">Travel</div></a>
+             
+             <div class="top-bar top-bar-menu"><a herf="">More
+                <img id="more-arrow"src="more.png"></a>
+               
+        </div>
+
+             <div class="top-bar"> 
+             </div>
+             <div>
+                 <input id="serch-box" type="text" value="Search"><input type="image" id="search-icon" src="search-icon.png">
+             </div>
+             
+        </div>
+        <div class="clear"></div>
+        <div class="menu-bar-container">
+            <div class="menu-bar">
+                <h1 class="h1">NEWS</h1>  
+            </div>
+            
+        </div>
+        <div class="clear"></div>
+        <div class="menu-bar-container2">
+            <div class="menu-bar2">
+                <a href="">Home</a>
+                <a href="">Video</a>
+                <a href="">World</a>
+                <a href="">Asia</a>
+                <a href="">UK</a>
+                <a href="">Business</a>
+                <a href="">Tech</a>
+                <a href="">Science</a>
+                <a href="">Magazine</a>
+                <a href="">Entertainment & Arts</a>
+                <a href="">Health</a>
+                <a href="">World News TV</a>
+                <a  class="no-boder"href="">More</a>
+                <img id="red-more"src="red-more.png">
+            
+            </div>
+        
+        </div>
+        <div class="clear"></div>
+        <div id="page-container">
+            <div id="main-article">
+               <h2 class="h2">Technology</h2>
+                <div id="article-container">
+                <h3><a href="">Facebook: We're not listening in to chat</a></h3>
+                <div class="article-summary">An executive was responding to a tweet asking about ads which seems to be linked to real-life conversations.
+                <p><img id="clock-image" src="clock.png"> 28 October 2017 |<a id="tech-a" href=""> Technology</a></p>
+                    <hr id="article-hr" align="left">
+                    <p><a href="">Related content
+                     Professor denies viral Facebook claim</a></p>
+                    <p><a href="">Is your smartphone listening to you?</a></p>
+                   
+                 </div>
+                    <a href=""><img id="facebook-image" src="facebook-girl.png"></a>
+         
+    
+            </div>   
+        </div>
+             
+            <div class="watch-listen">
+                <br>
+                <br>
+                <h4>Watch//Listen</h4>
+                        <a href=""> <img class="near-to-video" src="watch-and-listen-1.png">  
+                         <p class="p-move"><a href="">Bloodhound: Numbers of the beast</a></p></a>
+                         <p class="clock-image-move date"><img id="clock-image" src="clock.png"> 28 October 2017</p>
+                
+                <p class="cornwall"><a id="tech-a" class="tech-border" href=""> Cornwall</a></p> 
+               
+                <div class="clear"></div>
+                <br>
+                        <a href=""> <img class="near-to-video" src="watch-and-listen-2.png">
+                         <p class="p-move"><a href="">could algorithms revolutionise building?</a></p></a>
+                         <p class="clock-image-move date"><img id="clock-image" src="clock.png"> 27 October 2017</p>
+              <p class="down"><a id="tech-a" class="tech-border" href=""> Technology</a></p>
+             
+                <div class="clear"></div>
+                 <br>
+                        <a href=""> <img class="near-to-video" src="watch-and-listen-3.png">
+                         <p class="p-move"><a href="">Inside Microsoft's new 'hologram maker</a></p></a>
+                         <p class="clock-image-move date"><img id="clock-image" src="clock.png"> 25 October 2017</p>
+                <p class="down"><a id="tech-a" class="tech-border" href=""> Technology</a></p>
+                
+                <div class="clear"></div>
+                 <br>
+                        <a href=""> <img class="near-to-video" src="watch-and-listen-4.png">
+                         <p class="p-move"><a href="">Windmill mapped with laser technology</a></p></a>
+                         <p class="clock-image-move date"><img id="clock-image" src="clock.png"> 23 October 2017</p>
+                <p class="down"><a id="tech-a" class="tech-border" href=""> Technology</a></p>
+                
+                <div class="clear"></div>
+                 <br>
+                        <a href=""> <img class="near-to-video" src="watch-and-listen-5.png">
+                         <p class="p-move"><a href="">BlackBerry's bet on driverless cars</a></p></a>
+                         <p class="clock-image-move date"><img id="clock-image" src="clock.png"> 21 October 2017</p>
+                <p class="down"><a id="tech-a" class="tech-border" href=""> Technology</a></p>
+                
+           
+                <div class="clear"></div>
+                 <br>
+                <br>
+                       <a href="">  <img class="near-to-video" src="watch-and-listen-6.png">
+                         <p class="p-move"><a href="">Graphene tattoos could monitor health</a></p></a>
+                         <p class="clock-image-move date"><img id="clock-image" src="clock.png"> 19 October 2017</p>
+                <p class="down"><a id="tech-a" class="tech-border" href=""> Technology</a></p>
+                    
+                
+            </div>
+                
+            
+        
+    </div>
+            
+            
+               
+        
+    </body>
+</html> 
